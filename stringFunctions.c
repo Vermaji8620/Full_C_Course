@@ -2,8 +2,8 @@
 #include <string.h>
 int main()
 {
-    char s1[]="harry";
-    char s2[]="ravi";
+    char s1[] = "harry";
+    char s2[] = "ravi";
     char s3[30];
     // puts(strcat(s1, s2));
     // printf("the length of s1 is %d\n", strlen(s1));

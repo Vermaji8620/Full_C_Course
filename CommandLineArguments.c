@@ -15,6 +15,5 @@ int main(int argc, char const *argv[]) // int argc has the count of the number o
     {
         printf("this argument number %d has a value of %s\n", i, argv[i]);
     }
-
     return 0;
 }

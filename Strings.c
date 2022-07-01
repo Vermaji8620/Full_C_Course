@@ -20,7 +20,7 @@ int main()
     char str[50];
     gets(str);
     printStr(str);
-    printf("it is %s", str);
+    // printf("it is %s", str);
 
     return 0;
 }

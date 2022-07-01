@@ -6,7 +6,6 @@
 #define zizizi 3.14             // using define directive        (its a macro)
 #define SQUAREEE(r) r *r        // (its a macro)
 
-
 int main()
 {
     myfunc(10, 20); // calling the function of the other program since we have invoked that program----

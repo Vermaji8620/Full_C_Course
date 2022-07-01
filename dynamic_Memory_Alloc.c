@@ -43,7 +43,7 @@ int main()
     ptr = (int *)realloc(ptr, n * sizeof(int));
     for (int i = 0; i < n; i++)
     {
-        printf("enetr the  newvalue number %d of this array\n", i);
+        printf("enter the newvalue number %d of this array\n", i);
         scanf("%d", &ptr[i]);
     }
 
@@ -51,8 +51,6 @@ int main()
     {
         printf("the new value at %d of this array is %d\n", i, ptr[i]);
     }
-
     free(ptr);
-
     return 0;
 }

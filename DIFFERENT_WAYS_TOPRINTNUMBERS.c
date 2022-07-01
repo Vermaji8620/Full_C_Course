@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
+
 int func1(int arrr[4])
 {
     //=========can be written in this way=============
@@ -17,6 +18,7 @@ int func1(int arrr[4])
         printf("the %d element with the address of %x has the value of %d\n", j + 1, arrr + j, *(arrr + j));
     }
 }
+
 
 // in func2 the pointer 'arrayy' acts as an array and even a pointer---and hence properties of array can be applied to it ----
 int func2(int *arrayy)
@@ -34,6 +36,7 @@ int func2(int *arrayy)
         printf("the %d element whose address is %x has the value of %d\n", l + 1, arrayy + l, *(arrayy + l));
     }
 }
+
 
 int main()
 {
